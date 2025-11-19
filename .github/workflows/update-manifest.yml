@@ -12,6 +12,7 @@ on:
 
 jobs:
   build:
+    if: github.repository == 'dost-start-org/techstart-nov25'
     runs-on: ubuntu-latest
     permissions:
       contents: write
